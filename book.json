@@ -1,0 +1,13 @@
+{
+  "gitbook": "3.x.x",
+  "plugins": [
+    "include-codeblock",
+    "bootstrap-callout",
+    "youtube"
+  ],
+  "pluginsConfig": {
+    "include-codeblock": {
+      "template": "default"
+    }
+  }
+}
