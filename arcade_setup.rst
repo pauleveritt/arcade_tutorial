@@ -1,4 +1,6 @@
-# Self-Check: Are We Setup?
+============
+Arcade Setup
+============
 
 Nothing is more frustrating than trying to start, only to find you aren't
 setup correctly. Let's write a tiny program to ensure that:
@@ -9,6 +11,8 @@ setup correctly. Let's write a tiny program to ensure that:
 
 Steps
 =====
+
+#. Make sure you have the ``arcade_tutorial`` project open in PyCharm.
 
 #. In the PyCharm menu, choose ``File -> New -> Python File``, then name
    file ``game.py``.
