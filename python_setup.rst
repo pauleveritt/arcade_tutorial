@@ -33,8 +33,21 @@ now, just launch Py
 Project
 =======
 
-As PyCharm is launching, it will ask you to create a new project. Let's
+As PyCharm is launching, it will ask you to create a new *project*. Let's
 make one called ``Arcade Tutorial``. Let's also make a
-``virtual environment``, which is a way for Python
+*virtual environment*. When working on projects in Python, you
+often install *packages* from
 
+Terms Used
+==========
+
+- *Project*. A collection of files and everything else needed to work
+  on an application in Python and PyCharm. Meaning, your workspace.
+
+- *Package*. People around the world write new things for Python. Rather
+  than put all of this in Python itself, Python provides a way to get
+  these "packages" and install them into your Python.
+
+- *Virtual Environment*. A way to isolate the work you do in one project's
+  Python setup from another.
 

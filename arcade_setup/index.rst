@@ -9,6 +9,8 @@ setup correctly. Let's write a tiny program to ensure that:
 
 - For those using PyCharm, we can run our small Python program
 
+.. youtube:: d3NxblctHJI
+
 Steps
 =====
 
@@ -31,14 +33,14 @@ Steps
 #. Click on the red-squigly line for ``arcade`` on line one, then click on
    the red light bulb that pops up.
 
-#. Choose the ``Install 'arcade'` menu item.
+#. Choose the ``Install package arcade`` menu item.
 
 #. Once installed, click the green play button to re-run our program.
 
 #. You now see, in the ``Run`` window, the version number.
 
-What Happened
-=============
+What's Going On
+===============
 
 In this step we ran a Python program. Cool! We used the Python that we
 setup as the virtual environment for this project, then created a new file
@@ -61,15 +63,10 @@ to the output.
 Terms Used
 ==========
 
-- Project
+- *import*. A Python statement to get the code from another location
+  and bring it into the file you are working in.
 
-- Virtual Environment
-
-- Package
-
-- import
-
-- function
+- *Function*.
 
 - variable
 
