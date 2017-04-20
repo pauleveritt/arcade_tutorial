@@ -1,7 +1,7 @@
 Welcome to the Arcade Tutorial
 ==============================
 
-.. youtube:: SVBrw2__jrM
+.. youtube:: http://www.youtube.com/watch?v=SVBrw2__jrM
 
 Indices and tables
 ==================
