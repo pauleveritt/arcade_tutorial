@@ -4,7 +4,12 @@ Set the Background Color
 
 Games have colors, including a background color. Arcade makes it really
 easy to set the background color, so let's do so.
-vv
+
+.. raw:: html
+
+  <iframe width="640" height="360"
+    src="https://www.youtube.com/embed/AXhYJSO5oIc"
+    frameborder="0" allowfullscreen="1">&nbsp;</iframe>
 
 Steps
 =====

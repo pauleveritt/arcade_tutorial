@@ -1,0 +1,1 @@
+- Remove "Paul Everitt" from the menubar in videos

@@ -2,6 +2,12 @@
 Start/Stop Render
 =================
 
+.. raw:: html
+
+  <iframe width="640" height="360"
+    src="https://www.youtube.com/embed/DcC1dyHMwl0"
+    frameborder="0" allowfullscreen="1">&nbsp;</iframe>
+
 Correctly use arcade's start/finish render functions.
 
 Points to learn:

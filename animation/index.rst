@@ -2,6 +2,12 @@
 Animation
 =========
 
+.. raw:: html
+
+  <iframe width="640" height="360"
+    src="https://www.youtube.com/embed/yzC2TwhER0c"
+    frameborder="0" allowfullscreen="1">&nbsp;</iframe>
+
 Introduction to animation and scheduling with a drawing function.
 
 Points to learn:

@@ -14,6 +14,7 @@ def main():
     arcade.open_window(GAME_TITLE, WINDOW_WIDTH, WINDOW_HEIGHT)
     arcade.set_background_color(arcade.color.WHEAT)
     arcade.schedule(on_draw, 1 / 2)
+    arcade.finish_render()
     arcade.run()
 
 
