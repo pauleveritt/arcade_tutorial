@@ -19,6 +19,8 @@ Installing Python on Windows is quite easy. Head to the
 and follow the instructions to download Python 3.6.1 (or higher.)
 During the install, make sure to XXX
 
+.. youtube:: gZa6vvH8MUU
+
 PyCharm
 =======
 
@@ -30,6 +32,8 @@ PyCharm is a full-featured IDE (integrated development environment).
 There's a lot to learn, but don't worry, we'll introduce it gradually. For
 now, just launch Py
 
+.. youtube:: SVBrw2__jrM
+
 Project
 =======
 
@@ -37,6 +41,8 @@ As PyCharm is launching, it will ask you to create a new *project*. Let's
 make one called ``Arcade Tutorial``. Let's also make a
 *virtual environment*. When working on projects in Python, you
 often install *packages* from
+
+.. youtube:: EVWx7cYXPi4
 
 Terms Used
 ==========
