@@ -1,5 +1,10 @@
-Welcome to the Arcade Tutorial
-==============================
+Arcade Tutorial
+===============
+
+Welcome to this tutorial for Arcade, a 2d game programming library for
+Python. This tutorial is organized around the essential topics for writing
+a platformer game. Along the way, you'll learn about Python and about
+PyCharm, an environment for Python programming.
 
 .. toctree::
     :maxdepth: 1
