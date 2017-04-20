@@ -9,7 +9,11 @@ setup correctly. Let's write a tiny program to ensure that:
 
 - For those using PyCharm, we can run our small Python program
 
-.. youtube:: d3NxblctHJI
+.. raw:: html
+
+  <iframe width="640" height="360"
+    src="https://www.youtube.com/embed/d3NxblctHJI"
+    frameborder="0" allowfullscreen="1">&nbsp;</iframe>
 
 Steps
 =====

@@ -1,2 +1,2 @@
 arcade
-git+git://github.com/shomah4a/sphinxcontrib.youtube.git#egg=sphinxcontrib.youtube
+sphinx_rtd_theme

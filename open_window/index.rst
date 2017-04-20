@@ -5,7 +5,11 @@ Open Window
 Here we go, let's write a game. Starting with...opening a window on
 the screen where our game will live.
 
-.. youtube:: j2-EEguhwfU
+.. raw:: html
+
+  <iframe width="640" height="360"
+    src="https://www.youtube.com/embed/j2-EEguhwfU"
+    frameborder="0" allowfullscreen="1">&nbsp;</iframe>
 
 Steps
 =====
