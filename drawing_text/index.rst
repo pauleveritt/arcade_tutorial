@@ -1,4 +1,6 @@
-# Drawing Text
+============
+Drawing Text
+============
 
 Draw some text on the screen.
 

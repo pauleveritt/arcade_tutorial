@@ -1,4 +1,6 @@
-# Movable Graphics with Sprites
+=============================
+Movable Graphics with Sprites
+=============================
 
 Points to learn:
 

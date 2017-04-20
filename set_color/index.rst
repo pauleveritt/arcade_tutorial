@@ -1,4 +1,6 @@
-# Set the Background Color
+========================
+Set the Background Color
+========================
 
 Try (and fail) to set the background color.
 

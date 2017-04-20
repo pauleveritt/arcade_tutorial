@@ -1,4 +1,6 @@
-# Simple Shapes
+=============
+Simple Shapes
+=============
 
 Let's use a circle instead of text
 

@@ -1,4 +1,6 @@
-# Reverse Direction
+=================
+Reverse Direction
+=================
 
 Reverse direction if we hit the right edge
 

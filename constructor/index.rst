@@ -1,4 +1,7 @@
-# Using class constructors
+========================
+Using Class Constructors
+========================
+
 
 Have a class constructor which does some of the work.
 

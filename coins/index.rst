@@ -1,4 +1,6 @@
-# Coins
+=====
+Coins
+=====
 
 Steps:
 

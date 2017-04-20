@@ -1,6 +1,6 @@
-# Detect Collisions
-
-Detect collision with coin
+==========
+Keep Score
+==========
 
 Steps:
 

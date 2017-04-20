@@ -1,4 +1,6 @@
-# Handle Keypress
+===============
+Handle Keypress
+===============
 
 First event handler, keypress reverses direction
 

@@ -1,4 +1,6 @@
-# Up Direction
+============
+Up Direction
+============
 
 Introduce y, with key handlers
 

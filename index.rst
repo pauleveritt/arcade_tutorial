@@ -19,7 +19,7 @@ Welcome to the Arcade Tutorial
     class/index.rst
     constructor/index.rst
     class_animation/index.rst
-    delta_time/index.rst
+    class_delta/index.rst
     shapes/index.rst
     reverse_direction/index.rst
     left_edge/index.rst

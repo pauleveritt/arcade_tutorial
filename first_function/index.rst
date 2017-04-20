@@ -1,4 +1,6 @@
-# First Function
+==============
+First Function
+==============
 
 Put our action in a function.
 

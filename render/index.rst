@@ -1,4 +1,6 @@
-# Start/Stop Render
+=================
+Start/Stop Render
+=================
 
 Correctly use arcade's start/finish render functions.
 

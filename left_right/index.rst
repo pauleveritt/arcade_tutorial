@@ -1,4 +1,6 @@
-# Left and Right
+==============
+Left and Right
+==============
 
 Left/right keys moves left/right.
 

@@ -1,4 +1,6 @@
-# Left Edge
+=========
+Left Edge
+=========
 
 Reverse direction if we hit the left edge
 

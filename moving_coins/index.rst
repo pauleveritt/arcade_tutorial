@@ -1,4 +1,6 @@
-# Moving Coins
+============
+Moving Coins
+============
 
 Make coins move around, in a slow circle
 

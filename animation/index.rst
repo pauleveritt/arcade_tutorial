@@ -1,4 +1,6 @@
-# Animation
+=========
+Animation
+=========
 
 Introduction to animation and scheduling with a drawing function.
 
