@@ -70,7 +70,9 @@ Terms Used
 - *import*. A Python statement to get the code from another location
   and bring it into the file you are working in.
 
-- *Function*.
+- *Function*. Collect a number of Python statements into a single unit
+  that can be re-used. ``print`` is function that is built into Python.
 
-- variable
+- *Variable*. A value with an identifier, allowing the value to be used
+  repeatedly.
 

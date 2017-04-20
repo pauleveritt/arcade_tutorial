@@ -23,4 +23,7 @@ What makes this tutorial different?
 
 - Working code for every segment lets you avoid getting lost.
 
+- For those that *are* interested in mastering the topics, each segment
+  has exercises and extra credit.
+
 Let's begin by getting ourselves setup.
