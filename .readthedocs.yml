@@ -5,4 +5,5 @@ python:
     - requirements: requirements.txt
 sphinx:
   configuration: conf.py
-formats: html
+formats: 
+  - html
