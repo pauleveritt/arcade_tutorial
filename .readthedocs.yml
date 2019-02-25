@@ -4,5 +4,5 @@ python:
   install:
     - requirements: requirements.txt
 sphinx:
-  configuration: conf.py
+  configuration: docs/conf.py
 
