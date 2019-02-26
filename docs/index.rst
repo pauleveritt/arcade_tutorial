@@ -29,6 +29,8 @@ Alas, there are a few Python things we have to get straight first.
 
     functions_and_print/index
     basic_variables/index
+    importing_code/index
+    function_arguments/index
 
 Graphics With Arcade
 ====================
