@@ -11,27 +11,41 @@ easy to set the background color, so let's do so.
     src="https://www.youtube.com/embed/AXhYJSO5oIc"
     frameborder="0" allowfullscreen="1">&nbsp;</iframe>
 
-Steps
-=====
+Code
+====
 
-What's Going On
-===============
+.. literalinclude:: game.py
 
-We changed the title of our window, aka the "Window Title", to
-"Coin Game". That's the name of the game we're making.
+Analysis
+========
 
-Line 5 is the main change. We are again calling a Python function that
-is in the Arcade package. This function, ``set_background_color``, takes
-one function argument...the color we want to use.
+- We changed the *title* of our window
 
-Computer color schemes are usually defined with numbers or letters, which
-are hard to remember. Arcade makes this easier with some predefined colors
-that have easy names. These are all done as variables, each available
-inside the ``arcade.color`` variable. We chose ``WHEAT``.
+- We added a call to ``set_background_color``
 
-As we have seen, Arcade has a lot of functions and variables that can help
-us.
+- Names such as ``WHEAT`` are called *constants*. In Python,
+  constants are noted with *all caps*.
 
-And yet, after all of this, the background color did not change. What went
-wrong? We have one more thing to learn from Arcade, which we'll see in the
-next step.
+- Arcade's names for colors are really just RGB *tuples*
+
+- Running this does *not* yet change the background color
+
+Exercises
+=========
+
+#. Use ``Ctrl-B`` to navigate to the definition of ``WHEAT``
+   and tell its RGB value.
+
+Quiz
+====
+
+#. What is a tuple?
+
+#. Can you change a value in a tuple?
+
+#. How can you tell that a variable is intended to be used as
+   a constant?
+
+#. In *Python*, can you change the value of a constant?
+
+#. Why doesn't the background color change?

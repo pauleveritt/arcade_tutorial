@@ -11,14 +11,10 @@ the screen where our game will live.
     src="https://www.youtube.com/embed/j2-EEguhwfU"
     frameborder="0" allowfullscreen="1">&nbsp;</iframe>
 
-Steps
-=====
+Code
+====
 
-#. Change the main block to have two lines that use Arcade:
-
-   .. literalinclude:: game.py
-        :language: python
-        :linenos:
+.. literalinclude:: game.py
 
 #. Click the green arrow on line 3 and choose ``Run``.
 
@@ -26,30 +22,37 @@ Steps
 
 #. Close the window.
 
-What's Going On
-===============
+Analysis
+========
 
-When we ran our ``game.py`` this time, a new window appeared. What
-made it appear? Arcade! This time, instead of just printing a variable
-in Arcade, we asked it to run two functions:
+- We used two functions *imported* from arcade
 
-- ``arcade.open_window`` gets Arcade ready to open a 600x600 window
-  with the title we provided -- ``Drawing Example``.
+- ``open_window`` is a function which takes 3 arguments
 
-- ``arcade.run`` is a function which tells Arcade to take the setup work
-  (``open_window``) and spring into action.
+- ``run`` is a function that tells Arcade "ready to go"
 
-``open_window`` and ``run`` are functions. We can tell they are functions
-because they have parenthesis () where we "call" the function. A function
-is just a bunch of lines of programming, organized with a name.
+Exercises
+=========
 
-Some functions can just be called, e.g. run(). Other functions need some
-variables handed to them. We call these variables "function *arguments*."
+#. Change the arguments to ``open_window``, putting the string
+   first. What goes wrong?
 
-The 'open_window' function takes 3 "arguments".
+#. Use ``Ctrl-B`` to navigate to the implementation of
+   ``open_Window`` and see why this fails.
 
-How can we tell what arguments to provide when calling a function?
-When you get in the parenthesis, PyCharm will tell you a little bit.
-But even better, press F1 when the cursor is on 'open_window', and
-PyCharm gives you information about these arguments, plus some
-documentation.
+#. Close that tab, put your cursor inside ``open_window``, and
+   hit ``Ctrl-P``. This is a *less-disruptive* way to expore.
+
+#. What happens if you open a window too big for the screen?
+
+#. Instead of importing arcade then doing ``arcade.open_window``,
+   change to the ``from blahblah import blahblah, blahblah``
+   syntax.
+
+Quiz
+====
+
+#. What is the name of the function which takes arguments?
+
+#. What is the data type of that function's third argument?
+

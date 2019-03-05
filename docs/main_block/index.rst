@@ -11,47 +11,23 @@ make a "main block" for the startup of our program.
     src="https://www.youtube.com/embed/2wndmmo2sCE"
     frameborder="0" allowfullscreen="1">&nbsp;</iframe>
 
-Steps
-=====
 
-#. Move the ``print`` function inside an ``if`` statement:
+Code
+====
 
-   .. literalinclude:: game.py
-        :language: python
-        :linenos:
+.. literalinclude:: game.py
 
-#. Run the program, this time by clicking the green arrow in the
-   left margin of line 3 (the ``if`` statement) and selecting ``Run``.
+Analysis
+========
 
-What's Going On
-===============
+- Difference between *running* a file and *importing* a file
 
-Let's be clear up front: it's ok to memorize this and do it, rather than
-learn the little details.
+- How to tell the difference? The *"main block"*
 
-In Python, some files are meant for "import" into other files, but not
-for being run directly. Why does this matter? When imported into another
-file, you might not want to directly run some stuff. Imagine if every file
-started its own game...you'd have windows open everywhere.
+- Also nice: PyCharm's gutter icon
 
-To fix this, Python programmers arrange for there files to know when
-the file is being included in another main file, or when the file is being
-executed directly. We call this the "main block".
+Exercises
+=========
 
-The ``if`` statement is how Python checks to see if something is true. In
-this case, the ``if statement`` looks to see if ``__name__`` is equal to
-the value ``__main__``. What is ``__name__``? It's a special variable
-Python assigns when the file is directly executed, instead of imported.
-
-Here is a
-`good explanation <http://stackoverflow.com/questions/419163/what-does-if-name-main-do>`_
-of what Python is doing with the main block.
-
-Terms Used
-==========
-
-- *if statement*. Maybe you want some code to run when in one situation but
-  not another. Python's *if* statement lets you specific a condition.
-
-- *Main block*. A standard, safe way to let the same file be either directly
-  executed or imported into another main file.
+#. Instead of code under the ``if``, make a function ``main``
+   with the code, then call it from the main block.
