@@ -11,7 +11,7 @@ def on_draw(delta_time):
 
 
 def main():
-    arcade.open_window(GAME_TITLE, WINDOW_WIDTH, WINDOW_HEIGHT)
+    arcade.open_window(WINDOW_WIDTH, WINDOW_HEIGHT, GAME_TITLE)
     arcade.set_background_color(arcade.color.WHEAT)
     arcade.schedule(on_draw, 1 / 2)
     arcade.finish_render()

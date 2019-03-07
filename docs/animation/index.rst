@@ -10,7 +10,13 @@ Animation
 
 Introduction to animation and scheduling with a drawing function.
 
-Points to learn:
+Code
+====
+
+.. literalinclude:: game.py
+
+Analysis
+========
 
 - We moved our drawing into a second function, named 'on_draw'
 

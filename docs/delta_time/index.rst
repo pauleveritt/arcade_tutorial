@@ -2,7 +2,13 @@
 Delta Time
 ==========
 
-Points to learn:
+Code
+====
+
+.. literalinclude:: game.py
+
+Analysis
+========
 
 - The previous example left 'delta_time' unexplained
 
