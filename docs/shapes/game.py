@@ -16,7 +16,7 @@ class MyGame(arcade.Window):
         y = self.height / 2
         arcade.draw_circle_filled(self.position, y, self.radius, arcade.color.RED)
 
-    def animate(self, delta_time):
+    def update(self, delta_time):
         self.position += self.velocity
 
 
@@ -24,6 +24,7 @@ def main():
     game = MyGame(600, 600, 'Drawing Example', arcade.color.WHEAT)
     game.position = 1
     arcade.run()
+
 
 if __name__ == '__main__':
     main()

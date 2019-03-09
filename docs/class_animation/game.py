@@ -20,5 +20,6 @@ def main():
     game = MyGame(600, 600, 'Drawing Example', arcade.color.WHEAT)
     arcade.run()
 
+
 if __name__ == '__main__':
     main()

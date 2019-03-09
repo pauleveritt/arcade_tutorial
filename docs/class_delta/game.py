@@ -16,7 +16,7 @@ class MyGame(arcade.Window):
         message = self.title + ': ' + str(self.position)
         arcade.draw_text(message, self.position, y, arcade.color.BLACK, 12)
 
-    def animate(self, delta_time):
+    def update(self, delta_time):
         self.position += 1
 
 
@@ -24,6 +24,7 @@ def main():
     game = MyGame(600, 600, 'Drawing Example', arcade.color.WHEAT)
     game.position = 100
     arcade.run()
+
 
 if __name__ == '__main__':
     main()
