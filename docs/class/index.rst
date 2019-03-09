@@ -4,8 +4,13 @@ First Class
 
 Start using a Python class to organize the game.
 
+Code
+====
 
-Points to learn:
+.. literalinclude:: game.py
+
+Analysis
+========
 
 - What is a class
 
