@@ -37,3 +37,24 @@ Analysis
 
 - Because of how arcade does animation, with arcade.schedule, you
   need start_render but we no longer need finish_render
+
+Exercises
+=========
+
+#. Change the ``schedule`` function to run much more *frequently*.
+
+#. Change ``draw_text`` to "accidentally" draw most of the text outside
+   of the window.
+
+#. Use Python's ``random.choice`` and ``range`` to randomly choose an
+   X position between 100 and 400.
+
+Quiz
+====
+
+#. What is ``delta_time`` and what is it used for?
+
+#. In this step, is ``delta_time`` used?
+
+#. In this step, is it useful to have window height/width as constants
+   at the top?

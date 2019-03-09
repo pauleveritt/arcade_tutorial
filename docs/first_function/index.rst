@@ -30,3 +30,13 @@ Exercises
 #. Draw more text on the screen, in different places.
 
 #. Find the other arguments you can pass to ``draw_text``.
+
+#. Use autocomplete to find other Arcade functions starting with
+   ``draw_``.
+
+Quiz
+====
+
+#. How can we find out which arguments ``draw_text`` takes?
+
+
