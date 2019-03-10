@@ -21,7 +21,7 @@ Analysis
 
 - A constructor is a *method* with a special name -- ``__init__``
 
-- Like all method, it takes ``self`` as a first argument (``self``
+- Like all methods, it takes ``self`` as a first argument (``self``
   is the particular instance being constructed)
 
 - Like all methods, you can pass arguments to the constructor to use
@@ -33,7 +33,8 @@ Analysis
 
 - Instead, use the *instance* to store the title as an *instance attribute*
 
-- 'self.' is a way to refer to the instance ("self") and store a variable on it
+- 'self.' is a way to refer to the instance ("self") and store a value
+  (an *attribute*) on it
 
 - Thus, 'self.title' means: "Store a value for ``title`` on the instance"
 

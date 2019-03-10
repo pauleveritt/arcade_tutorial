@@ -21,8 +21,8 @@ class MyGame(arcade.Window):
 
 
 def main():
-    game = MyGame(600, 600, 'Drawing Example', arcade.color.WHEAT)
-    game.position = 100
+    game1 = MyGame(600, 600, 'Drawing Example', arcade.color.WHEAT)
+    game1.position = 100
     arcade.run()
 
 
