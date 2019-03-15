@@ -24,11 +24,6 @@ class MyGame(arcade.Window):
         if is_at_right:
             self.velocity *= -1
 
-        # Same for left edge
-        is_at_left = self.position < self.radius
-        if is_at_left:
-            self.velocity *= -1
-
 
 def main():
     game1 = MyGame(600, 600, 'Drawing Example', arcade.color.WHEAT)
