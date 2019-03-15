@@ -21,4 +21,4 @@ Exercises
 =========
 
 #. Both conditionals (the ``if`` statements) result in the same action.
-   Combine them. *Hint: combine with ``or`` and group each condition in
+   Combine them. *Hint: combine the two ``is_`` values with ``or``.)
