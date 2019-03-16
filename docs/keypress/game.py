@@ -19,19 +19,13 @@ class MyGame(arcade.Window):
         y = self.height / 2
         arcade.draw_circle_filled(self.position, y, 30, arcade.color.RED)
 
-    def animate(self, delta_time):
+    def update(self, delta_time):
         self.position += self.velocity * delta_time
 
-        # Did the circle hit the right side of the screen while moving right?
+        # Did the circle hit the right/left side of screen?
         is_at_right = self.position > self.width - self.radius
-        is_moving_right = self.velocity > 0
-        if is_at_right and is_moving_right:
-            self.reverse()
-
-        # Same for left edge
         is_at_left = self.position < self.radius
-        is_moving_left = self.velocity < 0
-        if is_at_left and is_moving_left:
+        if is_at_right or is_at_left:
             self.reverse()
 
     def on_key_press(self, key, modifiers):
@@ -44,6 +38,7 @@ def main():
     game.position = 1
     game.velocity = 200
     arcade.run()
+
 
 if __name__ == '__main__':
     main()
