@@ -4,10 +4,16 @@ Up Direction
 
 Introduce y, with key handlers
 
-Points to learn:
+Code
+====
 
-- Convert "position" to "x" using search and replace
+.. literalinclude:: game.py
 
-- Add self.y and use it for drawing circle
+Analyze
+=======
 
-- Change keypress to handle UP/DOWN
+#. Convert "position" to "x" using search and replace
+
+#. Add self.y and use it for drawing circle
+
+#. Change keypress to handle UP/DOWN
